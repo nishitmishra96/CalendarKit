@@ -44,11 +44,11 @@ public class DaySelectorStyle: NSCopying {
   public var selectedBackgroundColor = UIColor.black
 
   public var weekendTextColor = UIColor.gray
-  public var inactiveTextColor = UIColor.black
+  public var inactiveTextColor = UIColor.yellow
   public var inactiveBackgroundColor = UIColor.clear
 
-  public var todayInactiveTextColor = UIColor.red
-  public var todayActiveBackgroundColor = UIColor.red
+  public var todayInactiveTextColor = UIColor.yellow
+  public var todayActiveBackgroundColor = UIColor.yellow
     
   public var font = UIFont.systemFont(ofSize: 18)
   public var todayFont = UIFont.boldSystemFont(ofSize: 18)
@@ -128,7 +128,7 @@ public class TimelineStyle: NSCopying {
 }
 
 public class CurrentTimeIndicatorStyle: NSCopying {
-  public var color = UIColor.red
+  public var color = UIColor.yellow
   public var font = UIFont.systemFont(ofSize: 11)
   public var dateStyle : DateStyle = .system
   public init() {}
